@@ -1,0 +1,35 @@
+{
+  "name": "ZKMLLiuTools",
+  "version": "0.1.0",
+  "summary": "A short description of ZKMLLiuTools.",
+  "description": "TODO: Add long description of the pod here.Add long description of the pod here",
+  "homepage": "https://github.com/liukkk333/ZKMLLiuTools.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liukkk333": "liuk@izkml.com"
+  },
+  "source": {
+    "git": "https://github.com/liukkk333/ZKMLLiuTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZKMLLiuTools/Classes/**/*",
+  "prefix_header_contents": [
+    "#import \"JSONModel.h\"",
+    "#import \"Global.h\"",
+    "#import \"CommonPrefixHeader.h\""
+  ],
+  "dependencies": {
+    "JSONModel": [
+      "~> 1.6.0"
+    ],
+    "ZKMLPrefixHeaderModule": [
+      "~> 0.1.2"
+    ]
+  }
+}

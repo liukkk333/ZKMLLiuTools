@@ -1,4 +1,7 @@
 use_frameworks!
+source 'https://github.com/ZkmlEasycarOrganization/ZkmlRemotePodSpecs.git'
+# Cocoapods远程公共库
+source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '8.0'
 

@@ -1,0 +1,36 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JSONModel (1.6.0)
+  - ZKMLLiuTools (0.1.0):
+    - JSONModel (~> 1.6.0)
+    - ZKMLPrefixHeaderModule (~> 0.1.2)
+  - ZKMLPrefixHeaderModule (0.1.2)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - ZKMLLiuTools (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+    - JSONModel
+  https://github.com/ZkmlEasycarOrganization/ZkmlRemotePodSpecs.git:
+    - ZKMLPrefixHeaderModule
+
+EXTERNAL SOURCES:
+  ZKMLLiuTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JSONModel: f0ac82ba4d1812728f50feb58103d155d1226b95
+  ZKMLLiuTools: 4cb73cf92335ea1be83d06cae54e5fa519d4441d
+  ZKMLPrefixHeaderModule: 1c3e8bec115842220f5a77990cc0bf6f348172fb
+
+PODFILE CHECKSUM: 855bee73af713fc9a7c5363a25995ae6747f215f
+
+COCOAPODS: 1.7.2

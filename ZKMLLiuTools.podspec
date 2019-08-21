@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: Add long description of the pod here.Add long description of the pod here
                        DESC
 
-  s.homepage         = 'https://github.com/liukkk333/ZKMLLiuTools'
+  s.homepage         = 'https://github.com/liukkk333/ZKMLLiuTools.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liukkk333' => 'liuk@izkml.com' }
@@ -39,4 +39,8 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.prefix_header_contents =  '#import "JSONModel.h"','#import "Global.h"','#import "CommonPrefixHeader.h"'
+  s.dependency 'JSONModel', '~> 1.6.0'
+  s.dependency 'ZKMLPrefixHeaderModule', '~> 0.1.2'
+
 end
