@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ZKMLLiuTools_Example' do
+  pod 'ZKMLLiuTools', :path => '../'
+
+  target 'ZKMLLiuTools_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
