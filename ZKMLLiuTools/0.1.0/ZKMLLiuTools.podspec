@@ -42,5 +42,4 @@ TODO: Add long description of the pod here.Add long description of the pod here
   s.prefix_header_contents =  '#import "JSONModel.h"','#import "Global.h"','#import "CommonPrefixHeader.h"'
   s.dependency 'JSONModel', '~> 1.6.0'
   s.dependency 'ZKMLPrefixHeaderModule', '~> 0.1.2'
-
 end
